@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ASPNETScaffolding.Models.Cliente>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <title>Formulario de Clientes</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Añadir Cliente</legend>
+            <div>
+                <label for="NombreEmpresa">Nombre Empresa:</label>
+                <input type="text" name="NombreEmpresa" value="" />
+            </div>
+            <br />
+            <div>
+                <label for="NombreContacto">Nombre de Contacto:</label>
+                <input type="text" name="NombreContacto" value="" />
+            </div>
+            <br />
+            <div>
+                <label for="Puesto">Puesto en la Empresa:</label>
+                <input type="text" name="PuestoEmpresa" value=""  />
+            </div>
+            <br />
+            <div>
+                <label>&nbsp;</label>
+                <input type="submit" name="enviar" value="Enviar" class="submit"/>
+            </div>
+            <div>La hora actual: @DateTime.Now</div>
+
+        </fieldset>
+    }
+
+
+</body>

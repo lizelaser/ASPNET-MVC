@@ -1,0 +1,5 @@
+C:\Users\Lizel\source\repos\MPB\Comun\bin\Debug\Comun.dll
+C:\Users\Lizel\source\repos\MPB\Comun\bin\Debug\Comun.pdb
+C:\Users\Lizel\source\repos\MPB\Comun\obj\Debug\Comun.dll
+C:\Users\Lizel\source\repos\MPB\Comun\obj\Debug\Comun.pdb
+C:\Users\Lizel\source\repos\MPB\Comun\obj\Debug\Comun.csprojAssemblyReference.cache

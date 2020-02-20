@@ -1,0 +1,16 @@
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\BL.dll
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\BL.pdb
+C:\Users\Lizel\source\repos\MPB\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\Users\Lizel\source\repos\MPB\BL\obj\Debug\BL.dll
+C:\Users\Lizel\source\repos\MPB\BL\obj\Debug\BL.pdb
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\BL.dll.config
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\Comun.dll
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\DA.dll
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\EntityFramework.dll
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\Comun.pdb
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\DA.pdb
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\DA.dll.config
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\EntityFramework.xml
+C:\Users\Lizel\source\repos\MPB\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lizel\source\repos\MPB\BL\obj\Debug\BL.csproj.CopyComplete

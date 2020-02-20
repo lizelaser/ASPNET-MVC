@@ -1,0 +1,11 @@
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\DA.dll.config
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\DA.dll
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\DA.pdb
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\EntityFramework.dll
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\EntityFramework.xml
+C:\Users\Lizel\source\repos\MPB\DA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lizel\source\repos\MPB\DA\obj\Debug\DA.csproj.CopyComplete
+C:\Users\Lizel\source\repos\MPB\DA\obj\Debug\DA.dll
+C:\Users\Lizel\source\repos\MPB\DA\obj\Debug\DA.pdb
+C:\Users\Lizel\source\repos\MPB\DA\obj\Debug\DA.csprojAssemblyReference.cache

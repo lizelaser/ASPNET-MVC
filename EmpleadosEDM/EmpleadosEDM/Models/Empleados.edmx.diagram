@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c95c5aa3cda048d1b1ffaf21784a8f41" Name="Diagram1">
+        <EntityTypeShape EntityType="AplicacionEDMModel.Empleado_Detalles" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AplicacionEDMModel.Empleado_Experiencia_Estadisticas" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AplicacionEDMModel.Empleado" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AplicacionEDMModel.Empleados_Antiguedad_Estadisticas" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="AplicacionEDMModel.FK__Empleado___idEmp__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="AplicacionEDMModel.FK__Empleado___idEmp__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="AplicacionEDMModel.FK__Empleados__idEmp__25869641" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

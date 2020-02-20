@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#Provincia").prop("disabled", true);
+        $("#Pais").change(function () {
+            if ($("#Pais").val() != "Seleccionar") {
+                var PaisOptions = {};
+                PaisOptions.url = "/Sample/Provincias";
+                PaisOptions.type = "POST";
+                PaisOptions.data = JSON.stringify({ Pais: $("#Pais").val() });
+                PaisOptions.datatype = "json";
+                PaisOptions.contentType = "application/json";
+                PaisOptions.success = function (ListaProv) {
+                    $("#Provincia").empty();
+                    for (var i = 0; i < ListaProv.length; i++) {
+                        $("#Provincia").append("<option>" + ListaProv[i] + "</option>");
+                    }
+                    $("#Provincia").prop("disabled", false);
+                };
+                PaisOptions.error = function () { alert("Error Obteniendo las Provincias!!"); };
+                $.ajax(PaisOptions);
+            }
+            else {
+                $("#Provincia").empty();
+                $("#Provincia").prop("disabled", true);
+            }
+        });
+    });
+</script>
+
+@using (Html.BeginForm("Index", "Sample", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <h4>Secciona País y Provincias</h4>
+    <hr />
+    @Html.ValidationSummary()
+    <div class="form-group">
+        @Html.Label("Select Pais:", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownList("Pais", ViewData["Paises"] as SelectList, new { @class = "form-control" })
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.Label("Select Provincias:", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            <select id="Provincia"></select>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Enviar" />
+        </div>
+    </div>
+}
+
+
